@@ -1,9 +1,7 @@
 body{
   margin:o;
 }
-header{
-  background:#eeeeee;
-}
+
 .headerInner{
   height: 100px;
   display: flex;
@@ -22,4 +20,26 @@ footer{
   text-align: center;
   margin-top: 50px;
   padding: 30px;
+}
+.keyVisual{text-align: center;
+}
+.priceWrapper table,
+.priceWrapper th,
+.priceWrapper td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.priceWrapper th,
+.priceWrapper td{
+    padding: 7px;
+}
+
+.priceWrapper table{
+    width: 100%;
+}
+
+.priceWrapper th{
+    width: 150px;
+    background: #eee;
 }
