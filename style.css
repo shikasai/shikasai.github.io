@@ -1,6 +1,6 @@
 body{
-  margin:o;
-}
+  font-family: sans-serif;
+  }
 
 .headerInner{
   height: 100px;
@@ -45,4 +45,13 @@ footer{
 }
 .yaju{
   width: 100%;
+}
+
+h2{
+  background-image: url(tintin.png);
+  background-size: 50px 50px;
+  line-height: 50px;
+  padding: 0 15px;
+  color: #4b0082;
+  text-align: center;
 }
