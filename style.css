@@ -48,10 +48,29 @@ footer{
 }
 
 h2{
+  text-shadow: 2px 2px 5px #00bbff,
+              -2px 2px 5px #00bbff,
+               2px -2px 5px #00bbff,
+              -2px 5px #00bbff;
   background-image: url(tintin.png);
   background-size: 50px 50px;
   line-height: 50px;
   padding: 0 15px;
-  color: #4b0082;
+  color:#696969;
   text-align: center;
+}
+
+.aboutWrapper img{
+  float:left;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.aboutWrapper img {
+  float: left;
+  margin-right: 10px;
 }
